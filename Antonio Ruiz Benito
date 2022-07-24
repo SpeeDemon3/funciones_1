@@ -1,0 +1,21 @@
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+#Calculo del area de un triangulo
+
+def area(base, altura):
+    operacion = (base * altura) / 2
+    print(operacion)
+    return area
+    
+area(23,3)
+
+#Calculo del area de un circulo
+
+def areaCirculo():
+    operacion = (r** 2) * 3.14
+    print(operacion)
+    return
+
+r = 3    
+areaCirculo()
